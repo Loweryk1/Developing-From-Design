@@ -1,0 +1,25 @@
+
+#main {
+    background:url(../imgs/bg.png);
+    
+}
+
+#main header {
+    position:absolute;
+    top:-10px;
+    width:900px;
+    height:135px;
+    background:linear-gradient(to bottom, rgba(232,232,232,.1) 0%, rgba(232,232,232,.1) 100%);
+    background-color:transparent;
+    border-radius:10px;
+    left:350px;
+}
+
+#logo {
+   position:absolute;
+    top:45px;
+    left:20px;
+    background:url(../imgs/logo.png);
+    width:72px;
+    height:71px;
+}

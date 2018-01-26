@@ -1,5 +1,5 @@
 #main {
-    background:url(../imgs/bg.png);
+    background:url(../imgs/bg.png) top center;
     margin:0 auto;
 }
 #main header {
@@ -50,12 +50,13 @@
     top:45px;
     right:20px;
     background:url(../imgs/donate.png);
-    width:71px;
-    height:27px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, .25);
+    background-position: -1px -1px;
+    width:70px;
+    height:25px;
+    border-radius:10px;
 }
-#donate header a:hover {
-   background-position:72px 0px;
+#donate:hover {
+   background-position:70px -1px;
 }
 
 #main nav ul {
@@ -94,6 +95,19 @@
 }
 #main section {
     position:relative;
-    top:200px;
+    top:25px;
+    width:902px;
+    background:linear-gradient(to bottom, rgba(232,232,232,.1) 0%, rgba(232,232,232,.1) 100%);
+    background-color:transparent;
+    margin:0 auto;
+    border-radius:10px;
+    align-content:center;
+}
+
+#main section article {
     background:#000;
+    width:860px;
+    color:#fff;
+    margin:10px;
+    border-radius:10px;
 }

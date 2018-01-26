@@ -1,5 +1,6 @@
 #main {
     background:url(../imgs/bg.png);
+    margin:350px;
 }
 #main header {
     position:absolute;
@@ -89,5 +90,12 @@
      position:absolute;
    top:146px;
     left:30px;
+    
+}
+
+#about {
+    position:absolute;
+    top:200px;
+    background:#000;
     
 }
